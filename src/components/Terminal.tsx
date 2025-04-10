@@ -72,14 +72,14 @@ const Terminal = () => {
 							<p className="terminal-line">
 								Hãy truy cập{' '}
 								<a
-									href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2dqOHExNWJnc2M1bTRmZHE3dTE2YmhlZzMgZ2h1eTA0N0Bt&tmsrc=ghuy047%40gmail.com"
+									href="https://calendar.app.google/S7TbVzeD7iQWxPK37"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="a-link"
 								>
-									đường link
+									https://calendar.app.google/S7TbVzeD7iQWxPK37
 								</a>{' '}
-								sau để thêm vào lịch Google của bạn.
+								sau để chấp nhận sự kiện lịch Google của bạn.
 							</p>,
 						]);
 						break;
