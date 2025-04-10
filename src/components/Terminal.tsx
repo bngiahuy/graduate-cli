@@ -27,7 +27,7 @@ const Terminal = () => {
 	) => {
 		if (event.key === 'Enter') {
 			event.preventDefault();
-			const trimmedInput = input.trim();
+			const trimmedInput = input.trim().toLowerCase();
 
 			if (mode === 'initial') {
 				if (trimmedInput === 'start') {
@@ -72,7 +72,7 @@ const Terminal = () => {
 							<p className="terminal-line">
 								Hãy truy cập{' '}
 								<a
-									href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzZnZ29xbHNndjQ0aXBpaWZjdTBmNjI3cG8gZ2h1eTA0N0Bt&tmsrc=ghuy047%40gmail.com"
+									href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2dqOHExNWJnc2M1bTRmZHE3dTE2YmhlZzMgZ2h1eTA0N0Bt&tmsrc=ghuy047%40gmail.com"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="a-link"
@@ -182,7 +182,7 @@ const Terminal = () => {
 						className="input-field"
 						placeholder={
 							mode === 'initial'
-								? 'Gõ start để bắt đầu'
+								? 'Gõ Start hoặc start để bắt đầu'
 								: 'Nhập lựa chọn (1, 2, 3, 4)'
 						}
 						value={input}
