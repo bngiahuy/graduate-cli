@@ -1,0 +1,53 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 1024px) {
+  body {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    min-width: 280px;
+    padding: 0.5rem;
+  }
+}
+
+/* Responsive orientation handling */
+@media (orientation: landscape) and (max-height: 500px) {
+  body {
+    min-height: 450px;
+  }
+}
+
