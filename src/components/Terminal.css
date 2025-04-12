@@ -31,6 +31,12 @@ justify-content: space-between;
 align-items: center;
 }
 
+.terminal-title {
+color: #c0c0c0;
+font-size: 14px;
+margin-left: 10px;
+}
+
 .controls {
 display: flex;
 gap: 5px;
@@ -213,4 +219,14 @@ to {
     transform: rotate(360deg);
 }
 }
-  
+
+.send-button {
+    cursor: pointer;
+    background-color: #19962c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
